@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Session Smoke Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="API Users TestCases(failed)">
+    <groups>
+      <run>
+        <include name="RegressionSuite"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="userManagement.getUsers">
+        <methods>
+          <include name="endReport"/>
+          <include name="setupTest"/>
+          <include name="verifyStatusCodeDelete"/>
+          <include name="getResult"/>
+          <include name="config"/>
+        </methods>
+      </class> <!-- userManagement.getUsers -->
+    </classes>
+  </test> <!-- API Users TestCases(failed) -->
+</suite> <!-- Failed suite [Automation Session Smoke Suite] -->
